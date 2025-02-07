@@ -303,22 +303,22 @@
             background-color: #002244;
         }
         /* Modal-Fenster */
-        .modal {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 90%;
-            max-width: 800px;
-            background-color: #ffffe0;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-            z-index: 1000;
-            display: none;
-            padding: 20px;
-            overflow-y: auto;
-            max-height: 80vh;
-        }
+         .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;        /* Breiter gemacht */
+    max-width: 1000px; /* Maximale Breite auf 1200px erhöht */
+    background-color: #ffffe0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: none;
+    padding: 10px;     /* Mehr Innenabstand für den Inhalt */
+    overflow-y: auto;
+    max-height: 90vh;  /* Höher gemacht (90% der Bildschirmhöhe) */
+           }
         body.dark-mode .modal {
             background-color: #301934;
         }
